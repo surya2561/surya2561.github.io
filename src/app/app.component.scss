@@ -1,0 +1,14 @@
+.toolbar {
+  background-color: darkblue;
+  color: white;
+}
+.content {
+  float: right;
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    float: right;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="content">
+    <mat-card>
+      <div class="name"><b>Name:</b> {{ candidateDetails.name }}</div>
+      <div class="emailId"><b>EmailId:</b> {{ candidateDetails.emailId }}</div>
+      <div class="numberOfChallengesSolved">
+        <b>numberOfChallengesSolved:</b>
+        {{ candidateDetails.numberOfChallengesSolved }}
+      </div>
+      <div class="expertise">
+        <b>Experience:</b> {{ candidateDetails.expertise }}
+      </div>
+      <div class="Data_structures">
+        <b>Data_structures: </b>Rating = {{ candidateDetails.Data_structures }}
+      </div>
+      <div class="Algoritms">
+        <b>Algoritms:</b> Rating = {{ candidateDetails.Algoritms }}
+      </div>
+      <div class="Java"><b>Java:</b> Rating = {{ candidateDetails.Java }}</div>
+
+      <div class="C"><b>C</b> Rating = {{ candidateDetails.C }}</div>
+      <div class="Python">
+        <b>Python</b> Rating = {{ candidateDetails.Python }}
+      </div>
+    </mat-card>
+    <div class="button"></div>
+    <button mat-stroked-button type="button" (click)="vote()">
+      Vote
+    </button>
+  </div>
+</div>

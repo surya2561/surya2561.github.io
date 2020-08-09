@@ -1,0 +1,23 @@
+.container {
+  max-width: 100%;
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    .card {
+      width: 25%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      /* height: 120px; */
+      align-items: center;
+      justify-content: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      div {
+        padding-top: 10px;
+      }
+    }
+  }
+}

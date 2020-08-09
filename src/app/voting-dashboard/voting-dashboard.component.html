@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="content">
+    <div
+      class="card"
+      *ngFor="let data of candidateData"
+      (click)="navigateToDetails(data)"
+    >
+      <div class="name">
+        <span>Name: </span><span> {{ data.name }}</span>
+      </div>
+      <div class="expertise">
+        <span>Expert: </span><span> {{ data.expertise }}</span>
+      </div>
+      <div class="challenges">
+        <span>Challenges solved: </span
+        ><span> {{ data.numberOfChallengesSolved }}</span>
+      </div>
+    </div>
+  </div>
+</div>
